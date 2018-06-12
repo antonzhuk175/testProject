@@ -4,10 +4,11 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { BoldDirective} from './bold.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent, BoldDirective
   ],
   imports: [
     BrowserModule,
